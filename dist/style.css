@@ -6,11 +6,74 @@
     text-align: center;
   }
 
+  
   #content{
     display: flex;
-    background: url(img/lobster.jpg);
+    background: url(img/latte.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
     width: 100vw;
     height: 100vh;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  /* navbar */
+  nav{
+      border-bottom: 2px solid #aa6333;
+  }
+
+  ul{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      color: #aa6333;
+      height: 50px;
+  }
+
+  li{
+    list-style-type: none;
+  }
+
+  /* main */
+  main{
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .landing-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vh;
+    background-color: rgba(0, 0, 0, .5)
+  }
+
+  h1{
+      color:#ffffff;
+  }
+
+  h2{
+      color: #aa6333;
+  }
+
+  /* footer */
+
+  footer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      height: 70px;
+      color: #aa6333;
+      border-top: 2px solid #aa6333;
+  }
+
+  .github{
+      width: 32px;
+      height: 32px;
+      background: url(img/github-10-32.ico);
   }
