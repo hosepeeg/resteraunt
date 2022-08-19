@@ -36,6 +36,10 @@
     list-style-type: none;
   }
 
+  li:hover{
+      cursor: pointer;
+  }
+
   /* main */
   main{
       display: flex;
